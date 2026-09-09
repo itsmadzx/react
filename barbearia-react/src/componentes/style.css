@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
 body {
-  background: url('../assets/img.jpg') no-repeat center center fixed;
+  background: url('../assets/fundo.jpg') no-repeat center center fixed;
   background-size: cover;
   font-family: 'Segoe UI', sans-serif;
   display: flex;
@@ -11,23 +13,23 @@ body {
 
 .container {
   margin: 50px auto;
-  padding: 30px;
+  padding: 20px 50px;
   border-radius: 15px;
   width: 90%;
   max-width: 520px;
   background: rgba(255, 255, 255, 0.8);
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
-  border: 5px solid #000000;
+  box-shadow: 0 10px 25px rgba(44, 105, 171, 0.1);
+  border: 2px solid #1f2a64;
   height: auto;
 }
 
 h1 {
-  color: #000000;
-  font-size: 3.5em;
+  color: #1f2a64;
+  font-size: 45px;
   font-weight: bold;
   margin-bottom: 20px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  border-bottom: 2px solid #333;
+  font-family: Verdana;
+  border-bottom: 2px solid #1f2a64;
   padding-bottom: 10px;
   text-align: center;
 }
@@ -35,8 +37,9 @@ h1 {
 p {
   margin-bottom: 15px;
   text-align: left;
-  color: #555;
+  color: #1f2a64;
   font-weight: bold;
+  font-family: Verdana;
 }
 
 input[type="text"], input[type="date"], input[type="time"] {
@@ -46,12 +49,13 @@ input[type="text"], input[type="date"], input[type="time"] {
   box-sizing: border-box;
   border: 1px solid #ccc;
   border-radius: 5px;
-  font-size: 1em;
+  font-size: 13px;
+  font-family: "Playpen Sans", cursive;
   text-transform: uppercase;
 }
 
 input[type="submit"] {
-  background-color: #000;
+  background-color: #1f2a64;
   color: #fff;
   border: none;
   padding: 15px 30px;
