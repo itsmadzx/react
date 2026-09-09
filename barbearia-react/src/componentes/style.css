@@ -86,6 +86,97 @@ input[type="submit"]:hover {
   text-transform: uppercase;
 }
 
+/* =========================
+   HEADER
+========================= */
+
+.header {
+  width: 100%;
+  padding: 18px 50px;
+  box-sizing: border-box;
+
+  background: rgba(255, 255, 255, 0.92);
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  border-bottom: 3px solid #1d5fa7;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.header-logo h1 {
+  margin: 0;
+  color: #075ca8;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.menu a {
+  color: #222;
+  text-decoration: none;
+  font-size: 1em;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.menu a:hover {
+  color: #075ca8;
+}
+
+
+/* =========================
+   FOOTER
+========================= */
+
+.footer {
+  width: 100%;
+  padding: 25px 20px;
+  box-sizing: border-box;
+
+  background: rgba(255, 255, 255, 0.92);
+
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+
+  border-top: 3px solid #1d5fa7;
+  box-shadow: 0 -3px 10px rgba(0, 0, 0, 0.12);
+}
+
+.footer h2 {
+  margin: 0 0 5px;
+  color: #075ca8;
+  font-size: 1.7em;
+}
+
+.footer p {
+  margin: 5px 0 15px;
+  color: #444;
+  text-align: center;
+  font-weight: normal;
+}
+
+.footer-info {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 15px;
+  color: #333;
+  font-size: 0.9em;
+}
+
+.footer small {
+  color: #666;
+}
+
 /* ===========================
      RESPONSIVIDADE MOBILE
 =========================== */
@@ -94,6 +185,19 @@ input[type="submit"]:hover {
   body {
     flex-direction: column;
     height: auto;
+    gap: 15px;
+    padding: 20px;
+  }
+
+  .menu {
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .footer-info {
+    flex-direction: column;
+    gap: 8px;
   }
 
   .container {
