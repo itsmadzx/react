@@ -20,7 +20,7 @@ export default function AgendamentoForm({ setMensagem }) {
         };
 
         try {
-            const result = await salvarAgendamento(dadoAgendamento);
+            const result = await salvarAgendamento(dadosAgendamento);
 
             setMensagem(result.message);
 
@@ -40,7 +40,7 @@ export default function AgendamentoForm({ setMensagem }) {
                 <input
                 type="text"
                 value={nome}
-                onChange={(e) => setProcedimento(e.target.value)}
+                onChange={(e) => setNome(e.target.value)}
             />
             </p>
 
