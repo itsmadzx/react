@@ -2,18 +2,28 @@ import AgendamentoForm from "./componentes/AgendamentoForm";
 import Resposta from "./componentes/Resposta";
 import "./componentes/style.css";
 import { useState } from "react";
+import Footer from "./componentes/Footer";
+import Header from "./componentes/Header";
 
 export default function App() {
 
   const [mensagem, setMensagem] = useState("");
 
   return (
+    <>
 
+  <Header />
+    
     <div className="container">
 
       <AgendamentoForm setMensagem={setMensagem} />
       <Resposta mensagem={mensagem} />
-    </div>
 
+
+
+    </div>
+<Footer />
+  
+    </>
   );
 }

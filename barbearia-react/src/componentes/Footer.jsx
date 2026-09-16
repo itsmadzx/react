@@ -2,7 +2,6 @@ function Footer() {
   return (
     <footer style={styles.footer}>
       <h2 style={styles.title}>Barbixas</h2>
-      <p style={styles.subtitle}>Seu estilo, nosso cuidado.</p>
 
       <div style={styles.info}>
         <span>📍 São Paulo - SP</span>
@@ -10,7 +9,7 @@ function Footer() {
       </div>
 
       <small style={styles.copyright}>
-        © 2026 Barbixas - Todos os direitos reservados.
+        © 2026 Barbixas
       </small>
     </footer>
   );
